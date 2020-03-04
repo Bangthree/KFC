@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Voucher shop redirection
+- Voucher shop list</description>
+   <name>1. Open Voucher Shop Page</name>
+   <tag>Voucher, Redirection, shop, list</tag>
+   <comment>edit from here</comment>
+   <testCaseGuid>ba074bac-7ffc-49a5-9fb0-127686051b46</testCaseGuid>
+</TestCaseEntity>

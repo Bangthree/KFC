@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Redirection
+- Components of profile section</description>
+   <name>2 - Open User Profile</name>
+   <tag>Profile, homepage, components</tag>
+   <comment>User Profile Page Component check begin
+Profile Section
+Dana Section
+Points Section
+Info Section
+Logout Pop Up</comment>
+   <testCaseGuid>32fa9e65-b8c9-4e40-9c3d-7cd8097ac647</testCaseGuid>
+</TestCaseEntity>

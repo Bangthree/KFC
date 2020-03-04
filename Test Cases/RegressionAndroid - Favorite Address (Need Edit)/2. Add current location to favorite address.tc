@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Current location saved as favorite address</description>
+   <name>2. Add current location to favorite address</name>
+   <tag>current active location address</tag>
+   <comment>Default location must be set to Tebet Dalam First</comment>
+   <testCaseGuid>c28f3f26-76ca-48de-8807-25a40a473b1b</testCaseGuid>
+</TestCaseEntity>

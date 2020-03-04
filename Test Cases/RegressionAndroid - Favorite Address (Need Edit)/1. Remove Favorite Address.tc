@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Verify available favorite address (if not add &quot;add new address&quot; function</description>
+   <name>1. Remove Favorite Address</name>
+   <tag>favorite address, remove, delete</tag>
+   <comment>Must have favorite address available</comment>
+   <testCaseGuid>a8f61d0b-c7fb-4de8-98c5-d03f521f19a0</testCaseGuid>
+</TestCaseEntity>

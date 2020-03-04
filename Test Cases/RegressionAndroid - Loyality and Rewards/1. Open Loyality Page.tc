@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Profile Page
+- Loyality</description>
+   <name>1. Open Loyality Page</name>
+   <tag>Loyality, Points, Profile page</tag>
+   <comment>Earn Page Components check started
+Points Section
+Points section done checking</comment>
+   <testCaseGuid>4b991c71-ed70-4f0c-b366-4a3700cd86a4</testCaseGuid>
+</TestCaseEntity>

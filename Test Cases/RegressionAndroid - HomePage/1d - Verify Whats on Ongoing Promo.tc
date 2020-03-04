@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Check Redirection View All
+- Check Banner Visible
+- Check Pagination</description>
+   <name>1d - Verify Whats on Ongoing Promo</name>
+   <tag>Banner, Voucher, Promo, Swipe</tag>
+   <comment></comment>
+   <testCaseGuid>20286069-86b7-47dc-90e8-d39025f55403</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Create HMD order then reach order details
+- From order detail, save selected address as favorite</description>
+   <name>3. Add favorite address from address confirmation</name>
+   <tag>Favorite, address, HMD, Order details</tag>
+   <comment></comment>
+   <testCaseGuid>5cd77a68-05a7-4f43-90cc-1944fe8b2ccd</testCaseGuid>
+</TestCaseEntity>

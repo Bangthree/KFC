@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Active voucher is shown on the pocket page
+- active voucher has correct language shown</description>
+   <name>3. Open the active vouchers</name>
+   <tag>Voucher, pocket page, dana, external</tag>
+   <comment>MUST USE 085643628232</comment>
+   <testCaseGuid>c89ba5dd-b3f5-4fed-843a-4bc91adc657e</testCaseGuid>
+</TestCaseEntity>

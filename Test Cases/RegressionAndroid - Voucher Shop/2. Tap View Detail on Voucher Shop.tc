@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Detail
+- Redirection
+- View detail button</description>
+   <name>2. Tap View Detail on Voucher Shop</name>
+   <tag>Voucher, Shop, Redirection, View Detail</tag>
+   <comment></comment>
+   <testCaseGuid>049e0f91-0862-489f-a5ab-52e59f356b15</testCaseGuid>
+</TestCaseEntity>

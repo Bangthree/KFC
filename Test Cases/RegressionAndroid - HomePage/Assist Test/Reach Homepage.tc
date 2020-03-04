@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Loop until homepage reached</description>
+   <name>Reach Homepage</name>
+   <tag>Back button</tag>
+   <comment></comment>
+   <testCaseGuid>f2a0f1c1-dc99-490d-81d2-640ee37416c4</testCaseGuid>
+</TestCaseEntity>

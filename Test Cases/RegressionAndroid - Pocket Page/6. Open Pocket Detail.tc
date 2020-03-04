@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Pocket detail component are correct
+- Language are correct</description>
+   <name>6. Open Pocket Detail</name>
+   <tag>Pocket detail, dana, external</tag>
+   <comment>MUST USE 085643628232</comment>
+   <testCaseGuid>92c796c2-fda8-43ee-b116-de0dec9612d0</testCaseGuid>
+</TestCaseEntity>

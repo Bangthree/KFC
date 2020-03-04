@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Pick &amp; Pay Button Check and Redirection
+- Delivery Order Check and Redirection</description>
+   <name>1c - Verify feature button</name>
+   <tag></tag>
+   <comment>Check Delivery Order Button on Home
+Delivery Order Redirection
+Check Pay &amp; Pick Button on Home
+Pay &amp; Pick Redirection</comment>
+   <testCaseGuid>4850b513-a294-4ca0-bc00-8b7fe9536d53</testCaseGuid>
+</TestCaseEntity>

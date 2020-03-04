@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- 3 tabs available on pocket page
+- empty state handling on 3 tabs are correct</description>
+   <name>2. Verify the 3 tabs</name>
+   <tag>pocket page, tabs, dana, external</tag>
+   <comment></comment>
+   <testCaseGuid>d33b235d-9aea-4f72-8ddf-d066696ccca8</testCaseGuid>
+</TestCaseEntity>

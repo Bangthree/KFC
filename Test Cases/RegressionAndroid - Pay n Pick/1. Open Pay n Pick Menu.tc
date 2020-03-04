@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Redirection
+2. Pay n Pick Component
+3. Camera allowed</description>
+   <name>1. Open Pay n Pick Menu</name>
+   <tag>Pay n Pick, camera,</tag>
+   <comment>Earn Page Components check started
+PNP Page Check Begin</comment>
+   <testCaseGuid>e65deaf5-4da3-4c61-a1a1-a005529798b3</testCaseGuid>
+</TestCaseEntity>

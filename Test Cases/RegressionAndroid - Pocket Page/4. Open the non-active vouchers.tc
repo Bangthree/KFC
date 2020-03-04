@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Non Active voucher shown on the pocket page
+- nonactive voucher still accessible for user</description>
+   <name>4. Open the non-active vouchers</name>
+   <tag>voucher, non active, dana, pocket page</tag>
+   <comment>MUST USE 08118918919</comment>
+   <testCaseGuid>64385b28-f159-4bb6-9664-bcb140dc3f0a</testCaseGuid>
+</TestCaseEntity>

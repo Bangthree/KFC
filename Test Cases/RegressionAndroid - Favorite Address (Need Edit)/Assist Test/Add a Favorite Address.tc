@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>For Test Case 1 - Favorite Address</description>
+   <name>Add a Favorite Address</name>
+   <tag>Favorite Address, Add, remove,</tag>
+   <comment></comment>
+   <testCaseGuid>4c00b189-b69f-4646-ab4b-a13a62eba9c3</testCaseGuid>
+</TestCaseEntity>

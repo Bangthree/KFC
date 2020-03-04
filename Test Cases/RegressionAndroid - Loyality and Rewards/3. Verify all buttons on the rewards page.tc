@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3. Verify all buttons on the rewards page</name>
+   <tag></tag>
+   <comment>Voucher Detail Page Check
+Earn Page Components check started</comment>
+   <testCaseGuid>5029f8fa-aefe-4152-8a93-29980f7040c1</testCaseGuid>
+</TestCaseEntity>
