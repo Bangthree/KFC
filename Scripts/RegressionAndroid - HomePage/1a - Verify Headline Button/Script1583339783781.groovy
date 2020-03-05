@@ -34,19 +34,15 @@ Mobile.tap(findTestObject('Order History/BACK BUTTON'), 2)
 
 WebUI.comment('Check History Button Back Button Redirection')
 
-Mobile.waitForElementPresent(findTestObject('Home Screen/img_kfc_jago'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Home Screen - New/img_kfc_newhomepage'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen/txt_deliveryorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_delivery_DELIVERY'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/txt_deliveryorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_delivery_DELIVERY'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('Home Screen/txt_deliveryorder'), 'DELIVERY \nORDER', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_PNP_PAY'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen/txt_paypick'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('Home Screen/txt_paypick'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementText(findTestObject('Home Screen/txt_paypick'), 'PAY ’N PICK', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_PNP_PAY'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Home Screen/btn_history'), 2)
 
@@ -61,15 +57,11 @@ Mobile.pressBack()
 
 WebUI.comment('Check Device Back Button Redirection from History')
 
-Mobile.verifyElementExist(findTestObject('Home Screen/txt_deliveryorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_delivery_ORDER'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/txt_deliveryorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_delivery_ORDER'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('Home Screen/txt_deliveryorder'), 'DELIVERY \nORDER', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_PNP_PICK'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen/txt_paypick'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('Home Screen/txt_paypick'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementText(findTestObject('Home Screen/txt_paypick'), 'PAY ’N PICK', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_PNP_PICK'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 

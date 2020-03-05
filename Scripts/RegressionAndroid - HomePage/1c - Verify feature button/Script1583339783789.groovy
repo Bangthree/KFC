@@ -17,25 +17,29 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('Check Delivery Order Button on Home')
 
-Mobile.verifyElementExist(findTestObject('Home Screen/icon_deliveryorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_delivery_ORDER'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/icon_deliveryorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_delivery_ORDER'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen/txt_deliveryorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.getText(findTestObject('Home Screen - New/txt_delivery_ORDER'), 1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/txt_deliveryorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_delivery_DELIVERY'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('Home Screen/txt_deliveryorder'), 'DELIVERY \nORDER', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_delivery_DELIVERY'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen/btn_deliveryorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.getText(findTestObject('Home Screen - New/txt_delivery_DELIVERY'), 1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/btn_deliveryorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/btn_delivery_new'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Home Screen/btn_deliveryorder'), 2, FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/btn_delivery_new'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.tap(findTestObject('Home Screen - New/btn_delivery_new'), 2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('Delivery Order Redirection')
 
-Mobile.verifyElementExist(findTestObject('Delivery Address/New Address Selection/addrs_search_btnMap'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(4)
+
+Mobile.verifyElementExist(findTestObject('Delivery Address/New Address Selection/addrs_search_searchbar'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyElementVisible(findTestObject('Delivery Address/New Address Selection/addrs_search_searchbar'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -45,21 +49,23 @@ WebUI.delay(2)
 
 WebUI.comment('Check Pay & Pick Button on Home')
 
-Mobile.verifyElementExist(findTestObject('Home Screen/btn_paypick'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/btn_PNP_new'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/btn_paypick'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/btn_PNP_new'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen/icon_paypick'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_PNP_PICK'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/icon_paypick'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_PNP_PICK'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen/txt_paypick'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.getText(findTestObject('Home Screen - New/txt_PNP_PICK'), 1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/txt_paypick'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_PNP_PAY'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('Home Screen/txt_paypick'), 'PAY ’N PICK', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_PNP_PAY'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Home Screen/btn_paypick'), 2, FailureHandling.STOP_ON_FAILURE)
+Mobile.getText(findTestObject('Home Screen - New/txt_PNP_PAY'), 1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Home Screen - New/btn_PNP_new'), 2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('Pay & Pick Redirection')
 

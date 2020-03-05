@@ -13,9 +13,15 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>fba6e439-c83d-4a12-a0b0-52d23bfd8899</testSuiteGuid>
    <testCaseLink>
-      <guid>a382a262-a505-4c84-81c1-2803fae66470</guid>
+      <guid>d4c4f8b1-fa6a-4f6b-b975-404b0e25d625</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+      <testCaseId>Test Cases/RegressionAndroid - HomePage/1 - Open KFC JV Home Page Menu - NEW</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a382a262-a505-4c84-81c1-2803fae66470</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RegressionAndroid - HomePage/1 - Open KFC JV Home Page Menu</testCaseId>
    </testCaseLink>
    <testCaseLink>

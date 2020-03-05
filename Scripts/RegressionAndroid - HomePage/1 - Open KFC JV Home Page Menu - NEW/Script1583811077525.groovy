@@ -27,55 +27,61 @@ if (Mobile.verifyElementExist(findTestObject('Login Page/DESC_WELCOME'), 2, Fail
     println = 'Logged in'
 }
 
-Mobile.waitForElementPresent(findTestObject('Home Screen/img_kfc_jago'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Home Screen - New/img_kfc_newhomepage'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Quick Check on Delivery Order Button')
 
-Mobile.verifyElementExist(findTestObject('Home Screen/icon_deliveryorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_delivery_DELIVERY'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/icon_deliveryorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_delivery_DELIVERY'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen/txt_deliveryorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_delivery_ORDER'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/txt_deliveryorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_delivery_ORDER'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('Home Screen/txt_deliveryorder'), 'DELIVERY \nORDER', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementText(findTestObject('Home Screen - New/txt_delivery_DELIVERY'), 'DELIVERY', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen/btn_deliveryorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementText(findTestObject('Home Screen - New/txt_delivery_ORDER'), 'ORDER', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/btn_deliveryorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/btn_delivery_new'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/btn_delivery_new'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Quick Check on Pay & Pick Button')
 
-Mobile.verifyElementExist(findTestObject('Home Screen/btn_paypick'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/btn_PNP_new'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/btn_paypick'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/btn_PNP_new'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen/icon_paypick'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_PNP_PAY'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/icon_paypick'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_PNP_PAY'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen/txt_paypick'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.getText(findTestObject('Home Screen - New/txt_PNP_PAY'), 1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/txt_paypick'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_PNP_PICK'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('Home Screen/txt_paypick'), 'PAY ’N PICK', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_PNP_PICK'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.getText(findTestObject('Home Screen - New/txt_PNP_PICK'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('Quick Check on KFC Points Button')
 
-Mobile.verifyElementExist(findTestObject('Home Screen/icon_points_cup'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_points_POINTS'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/icon_points_cup'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_points_POINTS'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.getText(findTestObject('Home Screen - New/txt_points_POINTS'), 1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementExist(findTestObject('Home Screen/btn_points_option'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyElementVisible(findTestObject('Home Screen/btn_points_option'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen/txt_kfcpoint'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_points_KFC'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/txt_kfcpoint'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_points_KFC'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('Home Screen/txt_kfcpoint'), 'KFC \nPOINTS', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.getText(findTestObject('Home Screen - New/txt_points_KFC'), 1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementExist(findTestObject('Home Screen/txt_kfcpoint_amt'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -95,13 +101,9 @@ Mobile.verifyElementVisible(findTestObject('Home Screen/btn_profile'), 2, Failur
 
 WebUI.comment('Quick Check on KFC Logo on Homepage')
 
-Mobile.verifyElementExist(findTestObject('Home Screen/img_kfc_bucket'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/img_kfc_newhomepage'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/img_kfc_bucket'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementExist(findTestObject('Home Screen/img_kfc_jago'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('Home Screen/img_kfc_jago'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/img_kfc_newhomepage'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Quick Check on Ongoing Promo')
 
@@ -124,22 +126,6 @@ Mobile.verifyElementVisible(findTestObject('Home Screen/img_banner_promo_1'), 2,
 Mobile.verifyElementExist(findTestObject('Home Screen/page_1_promo'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyElementVisible(findTestObject('Home Screen/page_1_promo'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementExist(findTestObject('Home Screen/page_2_promo'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('Home Screen/page_2_promo'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementExist(findTestObject('Home Screen/page_3_promo'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('Home Screen/page_3_promo'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementExist(findTestObject('Home Screen/page_4_promo'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('Home Screen/page_4_promo'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementExist(findTestObject('Home Screen/page_5_promo'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('Home Screen/page_5_promo'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Quick Check on Bottom Bar')
 
