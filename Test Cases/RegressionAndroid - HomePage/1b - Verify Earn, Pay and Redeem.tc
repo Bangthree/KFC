@@ -7,7 +7,6 @@
    <name>1b - Verify Earn, Pay and Redeem</name>
    <tag>Verify Earn, Pay and Redeem</tag>
    <comment>Check Earn on Choose Action
-Check Pay on Choose Action
 Check Redeem on Choose Action</comment>
    <testCaseGuid>c4f44ad4-4526-495a-b696-dfdd38903b50</testCaseGuid>
 </TestCaseEntity>

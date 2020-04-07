@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Not completed address will trigger suggestion
+- User able to select address from google suggestion
+- Redirected to the order page</description>
+   <name>4. Select Address from Google Maps suggestion</name>
+   <tag>Google, Suggestion, Address, Selection, Delivery</tag>
+   <comment></comment>
+   <testCaseGuid>bf78dd1b-f550-45e0-b2c9-9c399c4a25df</testCaseGuid>
+</TestCaseEntity>

@@ -17,11 +17,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('Check History Button Existence')
 
-Mobile.verifyElementExist(findTestObject('Home Screen/btn_history'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/btn_historypage'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/btn_history'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/btn_historypage'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Home Screen/btn_history'), 2)
+Mobile.tap(findTestObject('Home Screen - New/btn_historypage'), 2)
 
 WebUI.comment('Check History Button Redirection')
 
@@ -36,15 +36,15 @@ WebUI.comment('Check History Button Back Button Redirection')
 
 Mobile.waitForElementPresent(findTestObject('Home Screen - New/img_kfc_newhomepage'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_delivery_DELIVERY'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/img_btn_delivorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_delivery_DELIVERY'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/img_btn_delivorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_PNP_PAY'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/img_btn_PNP'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_PNP_PAY'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/img_btn_PNP'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Home Screen/btn_history'), 2)
+Mobile.tap(findTestObject('Home Screen - New/btn_historypage'), 2)
 
 WebUI.comment('Check History Button Redirection')
 
@@ -57,11 +57,11 @@ Mobile.pressBack()
 
 WebUI.comment('Check Device Back Button Redirection from History')
 
-Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_delivery_ORDER'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/img_btn_delivorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_delivery_ORDER'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/img_btn_delivorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_PNP_PICK'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/img_btn_PNP'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_PNP_PICK'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/img_btn_PNP'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 

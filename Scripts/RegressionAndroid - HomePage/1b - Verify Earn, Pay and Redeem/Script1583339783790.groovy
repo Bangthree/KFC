@@ -15,6 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementExist(findTestObject('Home Screen/btn_points_option'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyElementVisible(findTestObject('Home Screen/btn_points_option'), 2, FailureHandling.CONTINUE_ON_FAILURE)
@@ -31,7 +33,7 @@ Mobile.verifyElementExist(findTestObject('Choose Action/title_earn_chooseaction'
 
 Mobile.verifyElementVisible(findTestObject('Choose Action/title_earn_chooseaction'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('Choose Action/title_earn_chooseaction'), 'Earn', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementText(findTestObject('Choose Action/title_earn_chooseaction'), 'Your QR', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyElementExist(findTestObject('Choose Action/desc_earn_chooseaction'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 

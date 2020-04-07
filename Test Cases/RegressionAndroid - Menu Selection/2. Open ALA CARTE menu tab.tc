@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Ala Carte Menu Tab Opened</description>
+   <name>2. Open ALA CARTE menu tab</name>
+   <tag>Ala, Carte, menu, HMD, Order</tag>
+   <comment></comment>
+   <testCaseGuid>a282fdd1-0ff3-4ce6-b9cf-b0d1b0413682</testCaseGuid>
+</TestCaseEntity>

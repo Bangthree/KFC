@@ -4,7 +4,6 @@
 - Redeem on disabled voucher</description>
    <name>2. View Vouchers List</name>
    <tag>Voucher list, Profile page,</tag>
-   <comment>Voucher List Page Check
-Voucher 1 Check</comment>
+   <comment>Voucher List Page Check</comment>
    <testCaseGuid>52361a6f-f9dc-4853-8882-81d501fafd9c</testCaseGuid>
 </TestCaseEntity>

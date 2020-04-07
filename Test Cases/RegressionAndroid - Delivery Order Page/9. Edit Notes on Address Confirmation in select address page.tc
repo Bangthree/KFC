@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- User able to access address confirmation page
+- User able to Edit Notes on the page
+- User able to delete the notes
+- Symbols not allowed</description>
+   <name>9. Edit Notes on Address Confirmation in select address page</name>
+   <tag>Confirmation, address, notes, page, select, symbols</tag>
+   <comment></comment>
+   <testCaseGuid>88527539-b06c-4ef8-82e2-39bfe02cbcfa</testCaseGuid>
+</TestCaseEntity>

@@ -11,6 +11,12 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>eedcf345-0cea-4f36-9b4a-8b41836b7e5b</testSuiteGuid>
    <testCaseLink>
+      <guid>c63c1185-e081-49ce-9992-6e4f4321fbda</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Additional Cases/Device Info</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>0c7f002a-aaa1-4426-bec8-b0528a5ba7ec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

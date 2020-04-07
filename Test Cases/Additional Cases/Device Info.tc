@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Display Device used for testing before the testing begin</description>
+   <name>Device Info</name>
+   <tag>Device, Info, Start, Display</tag>
+   <comment></comment>
+   <testCaseGuid>df21bc50-5f83-47e8-8d17-70626f7dd88b</testCaseGuid>
+</TestCaseEntity>

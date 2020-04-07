@@ -15,9 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.verifyElementExist(findTestObject('Home Screen/btn_profile'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Home Screen/btn_profile'), 1, FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/btn_userprofile'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.tap(findTestObject('Home Screen - New/btn_userprofile'), 1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.comment('User Profile Page Component check begin')
 

@@ -17,17 +17,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('Check Ongoing Promo Section on Home')
 
-Mobile.verifyElementExist(findTestObject('Home Screen/txt_ongoingprmo'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/img_ongoingpromo'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/txt_ongoingprmo'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/img_ongoingpromo'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('Home Screen/txt_ongoingprmo'), 'ONGOING PROMO', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/btn_ongoingpromo_viewall_new'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen/btn_ongoingprmo_viewall'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/btn_ongoingpromo_viewall_new'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/btn_ongoingprmo_viewall'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementText(findTestObject('Home Screen/btn_ongoingprmo_viewall'), 'View All', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementText(findTestObject('Home Screen - New/btn_ongoingpromo_viewall_new'), 'View All', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyElementExist(findTestObject('Home Screen/img_banner_promo_1'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 

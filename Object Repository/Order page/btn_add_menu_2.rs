@@ -4,6 +4,12 @@
    <name>btn_add_menu_2</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/androidx.viewpager.widget.ViewPager[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/com.google.android.material.card.MaterialCardView[2]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1][count(. | //*[@class = 'android.widget.LinearLayout' and @resource-id = 'com.kfc.mobile.hkStaging:id/llAddButton']) = count(//*[@class = 'android.widget.LinearLayout' and @resource-id = 'com.kfc.mobile.hkStaging:id/llAddButton'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -126,7 +132,7 @@
       <value>72</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Menu has price appear</description>
+   <name>8. Verify price on Menu</name>
+   <tag>Menu, Price, Order Page, HMD</tag>
+   <comment></comment>
+   <testCaseGuid>40ec0500-9355-4b27-9fd3-a29194d499a5</testCaseGuid>
+</TestCaseEntity>

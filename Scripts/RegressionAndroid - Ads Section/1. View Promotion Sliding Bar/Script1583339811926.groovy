@@ -15,12 +15,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('Additional Cases/Device Info'), [:], FailureHandling.STOP_ON_FAILURE)
+
 Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
 
 if (Mobile.verifyElementExist(findTestObject('Login Page/DESC_WELCOME'), 2, FailureHandling.OPTIONAL) == true) {
     Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.callTestCase(findTestCase('RegressionAndroid - Login/Assist Test/Login Dana'), [:], FailureHandling.STOP_ON_FAILURE)
+    Mobile.callTestCase(findTestCase('Additional Cases/Login Dana - User 1919'), [:], FailureHandling.STOP_ON_FAILURE)
 } else {
     println = 'Logged in, Homepage ready'
 }
@@ -28,7 +30,7 @@ if (Mobile.verifyElementExist(findTestObject('Login Page/DESC_WELCOME'), 2, Fail
 Mobile.swipe(500, 1500, 500, 1200)
 
 for (int i = 0; i <= 6; i++) {
-    WebUI.delay(2)
+    Mobile.delay(2)
 
     Mobile.verifyElementExist(findTestObject('Home Screen/img_banner_promo_1'), 1)
 

@@ -15,17 +15,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('Additional Cases/Device Info'), [:], FailureHandling.STOP_ON_FAILURE)
+
 Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('Home Screen/img_kfc_bucket'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Home Screen - New/img_kfc_newhomepage'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.comment('PNP Page Check Begin')
 
-Mobile.verifyElementExist(findTestObject('Home Screen/btn_paypick'), 2, FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/btn_PNP_new'), 2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Home Screen/btn_paypick'), 2, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Home Screen - New/btn_PNP_new'), 2, FailureHandling.STOP_ON_FAILURE)
 
 if (Mobile.verifyElementExist(findTestObject('Camera Permission/desc_allowcam'), 2, FailureHandling.OPTIONAL) == true) {
     Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
@@ -74,8 +76,6 @@ Mobile.getText(findTestObject('Pay n Pick Scan/PAYPICKSCAN - FlashStatusOFF'), 0
 Mobile.verifyElementExist(findTestObject('Pay n Pick Scan/PAYPICKSCAN - FlashStatusOFF'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyElementVisible(findTestObject('Pay n Pick Scan/PAYPICKSCAN - FlashStatusOFF'), 1, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('Pay n Pick Scan/PAYPICKSCAN - X Button'), 1, FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Remove 1 menu
+- Amount appear on confirmation button only shows 1 item.</description>
+   <name>7. Remove menu from Shopping Cart</name>
+   <tag>Shopping, HMD, Select, Add, Cart,</tag>
+   <comment></comment>
+   <testCaseGuid>4c1bc272-7f59-4a12-b8bd-fa62b9c0d538</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Verify Order Page
+- Review Order is displayed, contains:
+1. Menu order details
+2. Delivery address details
+3. Payment Option
+4. Payment Details
+5. Continue to Pay button</description>
+   <name>1. Verify Review Delivery Order</name>
+   <tag>Review, Delivery, Order, Pay, Dana, HMD</tag>
+   <comment>Review Order Reached
+Check Info Section
+Order Details Section
+Address Details Section
+Payment Method Section
+Payment Method Section
+Total &amp; Order Now Section
+Review Order Page Completed</comment>
+   <testCaseGuid>97e93aa5-70d4-47b7-9749-3adc8e8b32ea</testCaseGuid>
+</TestCaseEntity>

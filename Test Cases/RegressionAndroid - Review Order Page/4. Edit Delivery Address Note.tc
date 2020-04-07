@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Able to save updated notes
+- Able to cancel update notes</description>
+   <name>4. Edit Delivery Address Note</name>
+   <tag>Update, Notes, Delivery, Order, HMD</tag>
+   <comment></comment>
+   <testCaseGuid>2ca2678f-f998-4f3d-8a52-eb007ac6b2b7</testCaseGuid>
+</TestCaseEntity>

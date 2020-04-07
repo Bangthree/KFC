@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User able to redirect to order page if the address selected is covered for Home Delivery</description>
+   <name>7. Confirm an address that covered for HD</name>
+   <tag>Delivery, Covered, Home, Order page, Address</tag>
+   <comment></comment>
+   <testCaseGuid>0522d5b2-f6c6-4147-840a-08ccb8d810e8</testCaseGuid>
+</TestCaseEntity>

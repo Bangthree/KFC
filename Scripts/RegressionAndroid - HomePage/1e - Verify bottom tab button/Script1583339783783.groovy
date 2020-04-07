@@ -29,11 +29,11 @@ Mobile.verifyElementExist(findTestObject('Home Screen/icon_earnpay_bottombar'), 
 
 Mobile.verifyElementVisible(findTestObject('Home Screen/icon_earnpay_bottombar'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen/title_earnpay_bottombar_new'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/title_yourQR_bottombar'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen/title_earnpay_bottombar_new'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/title_yourQR_bottombar'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('Home Screen/title_earnpay_bottombar_new'), 'Earn', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementText(findTestObject('Home Screen - New/title_yourQR_bottombar'), 'Your QR', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyElementExist(findTestObject('Home Screen/icon_voucher_bottombar'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 

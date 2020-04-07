@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- User able to open History page
+- User able to dismiss History Page by X button
+- User able to dismiss History page by Back button</description>
+   <name>1. Open Order History Page</name>
+   <tag>History, Purchase, Dismiss, Redirection</tag>
+   <comment>Check History Button Existence
+Check History Button Redirection
+Check History Button Back Button Redirection
+Check History Button Redirection
+Check Device Back Button Redirection from History</comment>
+   <testCaseGuid>806bd465-be7c-418b-95cc-9d9db0a3370a</testCaseGuid>
+</TestCaseEntity>

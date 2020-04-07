@@ -15,9 +15,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('Additional Cases/Device Info'), [:], FailureHandling.STOP_ON_FAILURE)
+
 Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.comment('Register Test Started')
+
+if (Mobile.verifyElementExist(findTestObject('Login Page/ICO_KFC'), 2, FailureHandling.OPTIONAL) == false) {
+    Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+
+    Mobile.callTestCase(findTestCase('Additional Cases/Log Out'), [:], FailureHandling.OPTIONAL)
+} else {
+    println = 'No Need To Logout'
+}
 
 if (Mobile.verifyElementExist(findTestObject('Session Time Out/Session Time Out - Title'), 2, FailureHandling.OPTIONAL) == 
 true) {

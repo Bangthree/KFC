@@ -15,6 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('Additional Cases/Device Info'), [:], FailureHandling.STOP_ON_FAILURE)
+
 Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.comment('Pocket Page Test Started')
@@ -23,7 +25,7 @@ if (Mobile.verifyElementExist(findTestObject('Session Time Out/Session Time Out 
 true) {
     Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.callTestCase(findTestCase('RegressionAndroid - Login/Assist Test/Session Time Out Reset'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('Additional Cases/Session Time Out Reset'), [:], FailureHandling.STOP_ON_FAILURE)
 } else {
     println = 'Session is new'
 }
@@ -31,14 +33,16 @@ true) {
 if (Mobile.verifyElementExist(findTestObject('Login Page/DESC_WELCOME'), 2, FailureHandling.OPTIONAL) == true) {
     Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.callTestCase(findTestCase('RegressionAndroid - Login/Assist Test/Login Dana'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('Additional Cases/Login Dana - User 1919'), [:], FailureHandling.STOP_ON_FAILURE)
 } else {
     println = 'Logged in, Homepage ready'
 }
 
+WebUI.delay(4)
+
 Mobile.tap(findTestObject('Home Screen/btn_voucher_bottombar'), 1)
 
-WebUI.delay(5)
+WebUI.delay(15)
 
 Mobile.waitForElementPresent(findTestObject('pocket page/title_voucher_header_pocket'), 1)
 
@@ -76,6 +80,4 @@ false) {
 } else {
     println = 'Pocket Page Opened Successfully'
 }
-
-Mobile.callTestCase(findTestCase('RegressionAndroid - Pocket Page/2. Verify the 3 tabs'), [:], FailureHandling.STOP_ON_FAILURE)
 

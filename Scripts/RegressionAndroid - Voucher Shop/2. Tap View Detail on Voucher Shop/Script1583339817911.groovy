@@ -15,15 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
-
 Mobile.verifyElementExist(findTestObject('Voucher List page/vouchlist_vouch1_img'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Voucher List page/vouchlist_vouch1_img'), 1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.delay(5)
 
-Mobile.waitForElementPresent(findTestObject('Voucher Detail Page/vouchdet_voucher_title'), 1)
+Mobile.waitForElementPresent(findTestObject('Voucher Detail Page/vouchdet_voucher_title'), 10, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyElementExist(findTestObject('Voucher Detail Page/vouchdet_btnCancel'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -85,10 +83,6 @@ Mobile.verifyElementVisible(findTestObject('Voucher Detail Page/vouchdet_TC_btn_
 
 Mobile.getText(findTestObject('Voucher Detail Page/vouchdet_TC_btn_text'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Voucher Detail Page/vouchdet_TC_btn'), 1, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('Voucher Detail Page/vouchdet_TC_btn'), 1, FailureHandling.CONTINUE_ON_FAILURE)
-
 Mobile.verifyElementExist(findTestObject('Voucher Detail Page/vouchdet_TC_desc'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyElementVisible(findTestObject('Voucher Detail Page/vouchdet_TC_desc'), 1, FailureHandling.CONTINUE_ON_FAILURE)
@@ -111,10 +105,6 @@ Mobile.verifyElementExist(findTestObject('Voucher Detail Page/vouchdet_HTU_btn_t
 Mobile.verifyElementVisible(findTestObject('Voucher Detail Page/vouchdet_HTU_btn_text'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.getText(findTestObject('Voucher Detail Page/vouchdet_HTU_btn_text'), 1, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementExist(findTestObject('Voucher Detail Page/vouchdet_HTU_btn'), 1, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('Voucher Detail Page/vouchdet_HTU_btn'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyElementExist(findTestObject('Voucher Detail Page/vouchdet_HTU_desc'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -215,10 +205,6 @@ Mobile.verifyElementVisible(findTestObject('Voucher Detail Page/vouchdet_TC_btn_
 
 Mobile.getText(findTestObject('Voucher Detail Page/vouchdet_TC_btn_text'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Voucher Detail Page/vouchdet_TC_btn'), 1, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('Voucher Detail Page/vouchdet_TC_btn'), 1, FailureHandling.CONTINUE_ON_FAILURE)
-
 Mobile.verifyElementExist(findTestObject('Voucher Detail Page/vouchdet_TC_desc'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyElementVisible(findTestObject('Voucher Detail Page/vouchdet_TC_desc'), 1, FailureHandling.CONTINUE_ON_FAILURE)
@@ -241,10 +227,6 @@ Mobile.verifyElementExist(findTestObject('Voucher Detail Page/vouchdet_HTU_btn_t
 Mobile.verifyElementVisible(findTestObject('Voucher Detail Page/vouchdet_HTU_btn_text'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.getText(findTestObject('Voucher Detail Page/vouchdet_HTU_btn_text'), 1, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementExist(findTestObject('Voucher Detail Page/vouchdet_HTU_btn'), 1, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('Voucher Detail Page/vouchdet_HTU_btn'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyElementExist(findTestObject('Voucher Detail Page/vouchdet_HTU_desc'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 

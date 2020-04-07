@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Redirection to the Maps section
+- Cancel Button
+- Google maps appearence</description>
+   <name>1. Open KFC JV Location Page</name>
+   <tag>Maps, delivery, Location, Address</tag>
+   <comment></comment>
+   <testCaseGuid>01de32df-e15e-45c2-b306-4387c54de460</testCaseGuid>
+</TestCaseEntity>

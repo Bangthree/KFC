@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- User is redirect to address search.
+- The current address will be cleared.
+- Keyboard is to be shown after user clicks on search bar
+- X button function
+- Suggestion Appear</description>
+   <name>2. Select Address from submitted address by user</name>
+   <tag>Search, Address, Maps, Delivery, User, Submit</tag>
+   <comment></comment>
+   <testCaseGuid>33b70aea-23a2-4316-8dff-1996933a3396</testCaseGuid>
+</TestCaseEntity>

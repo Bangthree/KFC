@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Pop up appear when user tap redeem from Voucher List</description>
+   <name>3. Check Redeem Pop Up on Voucher List (new)</name>
+   <tag>Redeem, Voucher, Pop up</tag>
+   <comment></comment>
+   <testCaseGuid>b9174431-a5e1-4a7e-a424-f7e3ca43d8bb</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- BEVERAGES Menu Tab Opened</description>
+   <name>4. Open BEVERAGES menu tab</name>
+   <tag>Beverages, menu, HMD, Order</tag>
+   <comment></comment>
+   <testCaseGuid>4323c3c7-0b25-47de-8279-ca3f06c7257c</testCaseGuid>
+</TestCaseEntity>

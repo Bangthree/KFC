@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Address selected from maps
+- Swipe maps to select address</description>
+   <name>3. Select Address From Maps Pointer</name>
+   <tag>Maps, Swipe, Address, Pointer,</tag>
+   <comment></comment>
+   <testCaseGuid>32a61599-f3a8-4db3-a3d6-3f1e35f75dd2</testCaseGuid>
+</TestCaseEntity>

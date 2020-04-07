@@ -5,6 +5,6 @@
 - Check Pagination</description>
    <name>1d - Verify Whats on Ongoing Promo</name>
    <tag>Banner, Voucher, Promo, Swipe</tag>
-   <comment></comment>
+   <comment>Check Ongoing Promo Section on Home</comment>
    <testCaseGuid>20286069-86b7-47dc-90e8-d39025f55403</testCaseGuid>
 </TestCaseEntity>

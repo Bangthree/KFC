@@ -34,7 +34,7 @@ Mobile.setText(findTestObject('Login Page/FIELD_PASS'), '111111', 0)
 
 Mobile.tap(findTestObject('Login Page/BTN_LOGIN'), 2)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(12, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.comment('Redirect to DANA LOGIN PAGE')
 
@@ -72,19 +72,19 @@ Mobile.delay(15)
 
 Mobile.waitForElementPresent(findTestObject('Home Screen/btn_kfcpoint'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('Home Screen/btn_paypick'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Home Screen - New/btn_PNP_new'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('Home Screen/btn_deliveryorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Home Screen - New/btn_delivery_new'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyElementExist(findTestObject('Home Screen/btn_kfcpoint'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen/btn_paypick'), 1, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/btn_delivery_new'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen/btn_deliveryorder'), 1, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/btn_PNP_new'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('RegressionAndroid - Login/Assist Test/Log Out'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Additional Cases/Log Out'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyElementExist(findTestObject('Login Page/DESC_PLSLOGIN'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 

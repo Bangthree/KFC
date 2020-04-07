@@ -17,17 +17,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('Check Delivery Order Button on Home')
 
-Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_delivery_ORDER'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/img_btn_delivorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_delivery_ORDER'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.getText(findTestObject('Home Screen - New/txt_delivery_ORDER'), 1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_delivery_DELIVERY'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_delivery_DELIVERY'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.getText(findTestObject('Home Screen - New/txt_delivery_DELIVERY'), 1, FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/img_btn_delivorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyElementExist(findTestObject('Home Screen - New/btn_delivery_new'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -39,9 +31,9 @@ WebUI.comment('Delivery Order Redirection')
 
 WebUI.delay(4)
 
-Mobile.verifyElementExist(findTestObject('Delivery Address/New Address Selection/addrs_search_searchbar'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Delivery Address - New/addrs_search_searchbar'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Delivery Address/New Address Selection/addrs_search_searchbar'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Delivery Address - New/addrs_search_searchbar'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.pressBack()
 
@@ -53,17 +45,9 @@ Mobile.verifyElementExist(findTestObject('Home Screen - New/btn_PNP_new'), 2, Fa
 
 Mobile.verifyElementVisible(findTestObject('Home Screen - New/btn_PNP_new'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_PNP_PICK'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/img_btn_PNP'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_PNP_PICK'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.getText(findTestObject('Home Screen - New/txt_PNP_PICK'), 1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.verifyElementExist(findTestObject('Home Screen - New/txt_PNP_PAY'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('Home Screen - New/txt_PNP_PAY'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.getText(findTestObject('Home Screen - New/txt_PNP_PAY'), 1, FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Home Screen - New/img_btn_PNP'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Home Screen - New/btn_PNP_new'), 2, FailureHandling.STOP_ON_FAILURE)
 

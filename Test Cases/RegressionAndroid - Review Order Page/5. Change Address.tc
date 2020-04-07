@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Pop Up Appear
+- Pop up component correct
+- Able to cancel
+- Able to proceed</description>
+   <name>5. Change Address</name>
+   <tag>Cancel, Change, Address, Delivery, Review, HMD, Popup</tag>
+   <comment></comment>
+   <testCaseGuid>dcaca8fc-0263-4f16-8b01-c63712b1928a</testCaseGuid>
+</TestCaseEntity>

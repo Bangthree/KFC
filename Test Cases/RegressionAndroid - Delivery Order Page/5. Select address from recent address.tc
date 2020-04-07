@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- User Able to select address from recent address
+- Recent address appears correct</description>
+   <name>5. Select address from recent address</name>
+   <tag>Recent, Address, Delivery</tag>
+   <comment></comment>
+   <testCaseGuid>c472b4b3-9967-4bec-85dd-6819047a9ec0</testCaseGuid>
+</TestCaseEntity>

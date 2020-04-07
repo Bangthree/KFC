@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- COMBO Menu Tab Opened</description>
+   <name>3. Open COMBO menu tab</name>
+   <tag>Combo, menu, HMD, Order</tag>
+   <comment></comment>
+   <testCaseGuid>1c789abf-c23a-45b0-baa7-2bc1bd25cc04</testCaseGuid>
+</TestCaseEntity>

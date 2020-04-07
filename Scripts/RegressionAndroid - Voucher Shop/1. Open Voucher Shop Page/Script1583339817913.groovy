@@ -15,9 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('Additional Cases/Device Info'), [:], FailureHandling.STOP_ON_FAILURE)
+
 Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen/icon_deliveryorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/btn_delivery_new'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Home Screen/btn_points_option'), 1, FailureHandling.STOP_ON_FAILURE)
 
@@ -39,7 +41,7 @@ Mobile.verifyElementVisible(findTestObject('Voucher List page/vouchlist_header_t
 
 Mobile.getText(findTestObject('Voucher List page/vouchlist_header_title'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.comment('edit from here')
+WebUI.delay(10)
 
 Mobile.verifyElementExist(findTestObject('Voucher List page/container_mybalance(new)'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 

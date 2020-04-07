@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>6. Cancel Redeem Points (new)</name>
+   <tag>Redeem, Points, Loyality, Cancel, Redirection</tag>
+   <comment></comment>
+   <testCaseGuid>98a19fcc-a726-44fa-8a2b-27475414eb9d</testCaseGuid>
+</TestCaseEntity>

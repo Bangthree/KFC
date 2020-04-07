@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.tap(findTestObject('Home Screen/btn_ongoingprmo_viewall'), 1, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.tap(findTestObject('Home Screen - New/btn_ongoingpromo_viewall_new'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.waitForElementPresent(findTestObject('Ads section/title_header_promo_promopage'), 1)
 

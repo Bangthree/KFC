@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Add Notes Available
+- Able to add Notes
+- Able to cancel add notes
+- Able to save added notes</description>
+   <name>3. Add Notes to Delivery Address</name>
+   <tag>Add Notes, Delivery, HMD, Review, Order</tag>
+   <comment>Review Order Reached
+Address Details Section
+Cancel add notes
+Save Notes
+Verify Review Page Finished</comment>
+   <testCaseGuid>7e7eaab3-07fd-4998-a173-79885273a8b5</testCaseGuid>
+</TestCaseEntity>

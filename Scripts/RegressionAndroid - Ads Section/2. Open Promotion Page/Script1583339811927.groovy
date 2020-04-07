@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Home Screen/btn_ongoingprmo_viewall'), 1, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.tap(findTestObject('Home Screen - New/btn_ongoingpromo_viewall_new'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyElementExist(findTestObject('Ads section/title_header_promo_promopage'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -31,13 +31,11 @@ Mobile.verifyElementVisible(findTestObject('Ads section/btn_back_promopage'), 1,
 'Check Back Button Functionality\n'
 Mobile.tap(findTestObject('Ads section/btn_back_promopage'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Home Screen/img_kfc_bucket'), 1, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('Home Screen/img_kfc_jago'), 1, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Home Screen - New/img_kfc_newhomepage'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Home Screen/btn_ongoingprmo_viewall'), 1, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.tap(findTestObject('Home Screen - New/btn_ongoingpromo_viewall_new'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 

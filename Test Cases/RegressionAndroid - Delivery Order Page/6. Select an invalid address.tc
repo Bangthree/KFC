@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- User must not able to proceed to Order page if inputted an invalid address
+- No Search result appear</description>
+   <name>6. Select an invalid address</name>
+   <tag>Invalid, Address, Order Page, Delivery</tag>
+   <comment></comment>
+   <testCaseGuid>cdd906bd-9ce0-44b1-8351-fe2a4bf3a394</testCaseGuid>
+</TestCaseEntity>

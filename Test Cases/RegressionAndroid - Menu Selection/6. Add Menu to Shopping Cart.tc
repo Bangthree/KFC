@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Add 2 Menu from 2 different tabs on shopping card
+- Confirmation Button must show 2 items selected</description>
+   <name>6. Add Menu to Shopping Cart</name>
+   <tag>Select, Add, Menu, Shopping, Cart, HMD, Confirmation, Button</tag>
+   <comment></comment>
+   <testCaseGuid>f7c6fc1c-3244-4e57-89d4-5b7c0a550576</testCaseGuid>
+</TestCaseEntity>

@@ -15,6 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('Additional Cases/Device Info'), [:], FailureHandling.STOP_ON_FAILURE)
+
 Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.comment('Login Test Started')
@@ -23,7 +25,7 @@ if (Mobile.verifyElementExist(findTestObject('Session Time Out/Session Time Out 
 true) {
     Mobile.delay(2, FailureHandling.OPTIONAL)
 
-    Mobile.callTestCase(findTestCase('RegressionAndroid - Login/Assist Test/Session Time Out Reset'), [:], FailureHandling.OPTIONAL)
+    Mobile.callTestCase(findTestCase('Additional Cases/Session Time Out Reset'), [:], FailureHandling.OPTIONAL)
 } else {
     println = 'Session is new'
 }

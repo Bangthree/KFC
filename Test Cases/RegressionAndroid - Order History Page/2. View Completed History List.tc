@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- User able to open Completed Histrory List
+- Data appear on the Completed history list</description>
+   <name>2. View Completed History List</name>
+   <tag>History List, Completed, Tab</tag>
+   <comment>Check History Button Existence
+Check History Button Redirection</comment>
+   <testCaseGuid>652deec9-e582-40c9-bad8-c7a012e062dc</testCaseGuid>
+</TestCaseEntity>
